@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Front-end support for Inferior Scheme.
 
-%description -l pl 
+%description -l pl
 Wsparcie dla Inferior Scheme.
 
 %prep
@@ -29,13 +29,13 @@ install -d $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
 cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 
-gzip -9nf lisp/scheme/ChangeLog 
+gzip -9nf lisp/scheme/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/scheme/ChangeLog.gz 
+%doc lisp/scheme/ChangeLog.gz
 %dir %{_datadir}/xemacs-packages/lisp/*
 %{_datadir}/xemacs-packages/lisp/*/*.elc
