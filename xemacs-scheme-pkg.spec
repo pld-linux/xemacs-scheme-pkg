@@ -2,7 +2,7 @@ Summary:	Front-end support for Inferior Scheme
 Summary(pl):	Wsparcie dla Inferior Scheme
 Name:		xemacs-scheme-pkg
 %define 	srcname	scheme
-Version:	1.11
+Version:	1.12
 Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
