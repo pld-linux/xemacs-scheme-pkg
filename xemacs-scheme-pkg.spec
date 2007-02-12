@@ -1,5 +1,5 @@
 Summary:	Front-end support for Inferior Scheme
-Summary(pl):	Wsparcie dla Inferior Scheme
+Summary(pl.UTF-8):   Wsparcie dla Inferior Scheme
 Name:		xemacs-scheme-pkg
 %define 	srcname	scheme
 Version:	1.14
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Front-end support for Inferior Scheme.
 
-%description -l pl
+%description -l pl.UTF-8
 Wsparcie dla Inferior Scheme.
 
 %prep
